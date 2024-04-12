@@ -305,7 +305,7 @@ final class Generator
 
         $reflector = new ReflectionObject($object);
 
-        if ($object instanceof StubInternal && $mockClass instanceof MockClass) {
+        if ($object instanceof StubInternal) {
             /**
              * @noinspection PhpUnhandledExceptionInspection
              */
